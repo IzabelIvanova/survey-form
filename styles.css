@@ -1,0 +1,71 @@
+body {
+background-color: #565AA6;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  color: #f5f6f7;
+  font-family: Roboto;
+  font-size: 16px;
+}
+h1 {
+  margin: 1em auto;
+  text-align: center;
+}
+p#description{
+  text-align: center;
+  font-size: 14;
+  font-style: italic;
+  font-weight: thin;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+.form-group{
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+form {
+  width: 60%;
+  background-color: rgb(55, 39, 92);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  padding: 20px;
+  max-width: 500px;
+}
+label, p{
+  display: block;
+  margin: 0.5rem 0;
+}
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+.input-radio, .input-checkbox {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+.submit-button{
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #4C7DD3;
+  border-color: white;
+  color: white;
+  min-width: 300px;
+}
+
+.logo {
+  display: block;
+  margin: 2em auto 1em auto;
+  max-width: 100px;
+}
